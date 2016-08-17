@@ -1,0 +1,6 @@
+SD_ShinonomeFONTread	KEYWORD1
+SjisToShinonome16FontRead	KEYWORD2
+SjisToShinonome16FontRead_ALL	KEYWORD2
+SjisToShinonomeFNTadrs	KEYWORD2
+SD_Flash_ShinonomeFNTread	KEYWORD2
+SD_Flash_ShinonomeFNTread_Harf	KEYWORD2
