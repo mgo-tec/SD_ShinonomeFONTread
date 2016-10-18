@@ -1,6 +1,6 @@
 /*
   SD_ShinonomeFONTread.cpp - for ESP-WROOM-02 ( esp8266 )
-  Beta version 1.01
+  Beta version 1.0.1
 
   This is the Arduino & SD card library for reading Shinonome font. (For ESP8266) 
   
