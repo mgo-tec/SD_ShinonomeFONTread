@@ -1,6 +1,6 @@
 /*
   SD_ShinonomeFONTread.cpp - for ESP-WROOM-02 ( esp8266 )
-  Beta version 1.0
+  Beta version 1.01
 
   This is the Arduino & SD card library for reading Shinonome font. (For ESP8266) 
   
@@ -110,6 +110,7 @@ void SD_ShinonomeFONTread::SjisToShinonome16FontRead_ALL(File f1, File f2, uint8
       SD_ShinonomeFONTread::SD_Flash_ShinonomeFNTread_FHN(f1, fnt_adrs_Zen, font_buf[i], font_buf[i+1]);
       i = i+2;
     }
+		yield();
   }
 }
 //*******************Shift_JISコードから東雲フォントアドレス計算********************************************
